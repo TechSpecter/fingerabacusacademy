@@ -58,9 +58,7 @@ RUN npm install -g \
   lodash \
   lorem-ipsum \
   markdownlint-cli \
-  docsify-cli \
-  yarn \
-  npm@10.1.0 
+  docsify-cli 
 
 # Install gh - CLI for GitHub
 ARG GHVER=2.28.0
