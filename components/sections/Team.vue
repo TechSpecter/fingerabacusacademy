@@ -1,8 +1,5 @@
 <template>
-  <section
-    :class="$vuetify.theme.dark ? 'grey darken-4' : 'grey lighten-4'"
-    class="py-16"
-  >
+  <section :class="$vuetify.theme.dark ? 'grey darken-4' : 'grey lighten-4'" class="py-16">
     <v-container fluid class="text-center">
       <v-row>
         <v-col>
@@ -10,21 +7,17 @@
             Our Core Team
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
+            Deepti Gupta is the visionary teacher behind Finger Abacus Academy. With a passion for teaching and a
+            deep-rooted belief in the transformative power of mental math, Deepti embarked on a journey to create a
+            unique learning experience.
           </p>
         </v-col>
       </v-row>
       <v-row>
         <v-col v-for="(item, i) in ourTeam" :key="`person-${i}`">
           <v-sheet class="py-12 px-6" outlined shaped>
-            <v-avatar size="240"
-              ><img
-                :src="`/team/${item.photo}`"
-                :lazy-src="`team/${item.photo}`"
-                alt="John"
-            /></v-avatar>
+            <v-avatar size="240"><img :src="`/team/${item.photo}`" :lazy-src="`team/${item.photo}`"
+                alt="John" /></v-avatar>
             <div class="text-h5 text-uppercase font-weight-black mt-6 mb-2">
               {{ item.name }}
             </div>

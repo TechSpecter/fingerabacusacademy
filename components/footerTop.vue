@@ -16,10 +16,7 @@
             </v-col>
             <v-col cols="12">
               <p class="mt-8 text-justify" style="max-width: 400px">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-                pariatur quidem, quis modi iure nihil commodi suscipit, corporis
-                dicta adipisci, voluptatum quia cupiditate. Nulla minus
-                voluptatum nostrum deleniti, asperiores facere.
+                Calculating Brilliance, One Finger at a Time.
               </p>
             </v-col>
             <v-col cols="12">
@@ -32,7 +29,7 @@
                   <v-list-item-content>
                     <v-list-item-title>ADDRESS</v-list-item-title>
                     <v-list-item-subtitle
-                      >1400 Main Street, Orlando, FL 79938</v-list-item-subtitle
+                      >Madhya Pradesh, India </v-list-item-subtitle
                     >
                   </v-list-item-content>
                 </v-list-item>
@@ -62,8 +59,8 @@
 
                   <v-list-item-content>
                     <v-list-item-title>PHONE</v-list-item-title>
-                    <v-list-item-subtitle>(323) 555-6789</v-list-item-subtitle>
-                    <v-list-item-subtitle>(650) 555-1234</v-list-item-subtitle>
+                    <v-list-item-subtitle>+91 (323) 5556789</v-list-item-subtitle>
+                    <v-list-item-subtitle>+91 (650) 5551234</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
                 <v-divider></v-divider>
@@ -125,12 +122,7 @@ export default {
           platform: 'Linkedin',
           link: 'https://www.linkedin.com/',
           icon: 'mdi-linkedin',
-        },
-        {
-          platform: 'Github',
-          link: 'https://modevue.staticdesigner.com/',
-          icon: 'mdi-github',
-        },
+        }
       ],
     }
   },
