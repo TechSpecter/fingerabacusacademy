@@ -59,7 +59,8 @@ RUN npm install -g \
   lorem-ipsum \
   markdownlint-cli \
   docsify-cli \
-  pnpm
+  yarn \
+  npm@10.1.0 
 
 # Install gh - CLI for GitHub
 ARG GHVER=2.28.0
@@ -89,7 +90,7 @@ RUN curl -fsSL "https://github.com/mvdan/sh/releases/download/v${SHFMTVER}/shfmt
 RUN rm -rf /tmp/*
 
 # Set up non-root user
-ARG USERNAME=user
+ARG USERNAME=rahul
 RUN adduser \
   --quiet \
   --disabled-password \
