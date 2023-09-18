@@ -116,5 +116,4 @@ RUN wget "https://git.sr.ht/~gpanders/ijq/refs/download/v$IJQVER/ijq-$IJQVER-lin
 RUN rm -rf /home/$USERNAME/*
 
 # Off we go - based on tmux, the terminal multiplexer
-RUN tmux -u new -s "main"
-#CMD ["tmux", "-u", "new", "-s", "main"]
+CMD ["tmux", "-u", "new", "-s", "main"]
