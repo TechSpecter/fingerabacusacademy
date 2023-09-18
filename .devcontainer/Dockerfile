@@ -37,7 +37,7 @@ RUN apt-get update \
 WORKDIR /tmp/
 ARG DEST=/usr/local/bin
 
-ARG ARCH=amd64
+ARG ARCH=arm64
 
 # Install tmux - terminal multiplexer
 ARG TMUXVER=3.2a
@@ -45,7 +45,7 @@ RUN curl -fsSL "https://github.com/tmux/tmux/releases/download/$TMUXVER/tmux-$TM
   && cd "tmux-$TMUXVER" && ./configure && make && make install
 
 # Install specific Node.js
-ARG NODEVER=16
+ARG NODEVER=18
 RUN curl -fsSL "https://deb.nodesource.com/setup_$NODEVER.x" | bash - && apt-get install -y nodejs
 
 # Install global npm modules for Node.js

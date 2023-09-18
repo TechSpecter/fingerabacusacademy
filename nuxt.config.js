@@ -6,7 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ModeVue',
+    titleTemplate: '%s - Finger Abacus Academy',
     title: 'Home',
     htmlAttrs: {
       lang: 'en',
@@ -18,7 +18,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'ModeVue — is a carefully crafted multi-purpose, responsive, and gorgeous theme. Built with Vue.js and Nuxt.js, it comes with the features you need to quickly start developing your application.',
+          'Finger Abacus Academy — Unlock the power of mental math with Finger Abacus Academy. Discover our courses and master the art of fast and accurate calculations. Join us today',
       },
     ],
     link: [

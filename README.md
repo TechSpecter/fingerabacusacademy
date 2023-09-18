@@ -1,14 +1,23 @@
-# [ModeVue](https://modevue.staticdesigner.com) <img src="https://img.shields.io/badge/version-1.2.0-blue.svg" alt="Version">
+# [Finger Abacus Academy](https://fingerabacusacademy.guptarahul.tech) <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
 
-**ModeVue** — is a carefully crafted multi-purpose, responsive, and gorgeous theme. Built with Vue.js and Nuxt.js, it comes with the features you need to quickly start developing your application.
+FingerAbacus Academy is a web application built with Vue.js and Nuxt.js, designed to provide a solid foundation for developing your educational platform. This theme is based on the Material Design Specification and utilizes Vuetify as the front-end design framework.
 
-The theme is based on [Material Design Specification](https://material.io/guidelines/). We have used [Vuetify](https://vuetifyjs.com/) as the front-end design framework.
+## Features
+
+- **[Vue.js](https://vuejs.org/)** and **[Nuxt.js](https://nuxt.com/)**: Leverage the power of Vue.js and Nuxt.js for efficient and scalable web development.
+
+- **[Material Design](https://material.io/guidelines/)**: A clean and modern user interface based on the Material Design Specification.
+
+- **[Vuetify](https://vuetifyjs.com/)**: Utilize Vuetify's rich set of UI components for a polished and responsive design.
+
+- **Easy Customization**: Customize and extend the application to match your unique educational needs.
+
 
 ## Build Setup
 
 You will need a Windows, Mac, or Linux computer with access to the command-line and permission to install new system packages. An active internet connection is required in order to install the following required software:
 
-- Node https://nodejs.org/en/
+- Node (version 16 or 18) https://nodejs.org/en/ 
 - NPM https://www.npmjs.com/
 - Yarn https://yarnpkg.com/
 - Vue CLI https://cli.vuejs.org/
@@ -30,15 +39,6 @@ $ npm run start
 $ npm run generate
 ```
 
-<br>
-
-## Demo
-
-[ModeVue live demo](https://modevue.staticdesigner.com)
-<a href="https://modevue.staticdesigner.com"><img src="https://modevue.staticdesigner.com/dark.png"></a>
-
-<br>
-
 ## Quick Facts
 
 **Professionally developed**. All components and features are developed using the most up-to-date coding practices.
@@ -52,14 +52,12 @@ $ npm run generate
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/firefox.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/edge.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/safari.png" width="64" height="64"> <img src="https://cdn.vuetifyjs.com/images/browser/opera.png" width="64" height="64">
+<br>
 
-<br><br>
-
-## Licensing
+## 📑 License
 
 - Copyright 2020 Vuetify, LLC https://vuetifyjs.com
 - Vuetify, LLC [license Information](https://store.vuetifyjs.com/licenses)
-
 <br>
 
 ## Highlights
@@ -70,11 +68,11 @@ At present, we officially aim to support the last two versions of the following 
 - Supports customized SASS / SCSS variables
 - RTL Included
 - Responsive support down to 320px width
-- Support through [Github Issues](https://github.com/staticdesigner/modevue/issues)
+- Support through [Github Issues](https://github.com/TechSpecter/fingerabacusacademy/issues)
 - Integrated with Material Design Icons (mdi)
 - Also supports Material Icons and Font Awesome
 - Easily Customized theme options
 - Well commented and clean code
 - Optimized for SEO and Accessibility
 
-Still have **questions** about this theme? Reach out to us by [email](mailto:vinay@staticdesigner.com).
+Still have **questions** about this theme? Reach out to us by [email](mailto:techsavvyrahul@hotmail.com).
