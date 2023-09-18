@@ -37,7 +37,7 @@ RUN apt-get update \
 WORKDIR /tmp/
 ARG DEST=/usr/local/bin
 
-ARG ARCH=arm64
+ARG ARCH=amd64
 
 # Install tmux - terminal multiplexer
 ARG TMUXVER=3.2a
