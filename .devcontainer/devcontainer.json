@@ -2,7 +2,6 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "postCreateCommand": "bash -i 'tmux -u new -s main'",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -21,7 +20,7 @@
                 "bradlc.vscode-tailwindcss",
                 "oderwat.indent-rainbow",
                 "chrmarti.regex",
-                "SimonSiefke.svg-preview"
+                "jock.svg"
             ]
         }
     },
