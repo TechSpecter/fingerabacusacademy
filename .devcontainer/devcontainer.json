@@ -2,6 +2,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
+    "postCreateCommand": "bash -i 'tmux -u new -s main'",
     "customizations": {
         "vscode": {
             "extensions": [
