@@ -19,7 +19,8 @@
                 "christian-kohler.path-intellisense",
                 "bradlc.vscode-tailwindcss",
                 "oderwat.indent-rainbow",
-                "chrmarti.regex"
+                "chrmarti.regex",
+                "SimonSiefke.svg-preview"
             ]
         }
     },
