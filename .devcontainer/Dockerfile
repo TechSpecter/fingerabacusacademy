@@ -37,12 +37,22 @@ RUN apt-get update \
 WORKDIR /tmp/
 ARG DEST=/usr/local/bin
 
-ARG ARCH=arm64
+ARG ARCH=amd64
 
+# Install nvim from release deb distribution
+ARG NVIMVER=0.8.0
+RUN cd /tmp/ \
+  && curl -sLO https://github.com/neovim/neovim/releases/download/v${NVIMVER}/nvim-linux64.deb \
+  && apt install ./nvim-linux64.deb
+  
 # Install tmux - terminal multiplexer
 ARG TMUXVER=3.2a
 RUN curl -fsSL "https://github.com/tmux/tmux/releases/download/$TMUXVER/tmux-$TMUXVER.tar.gz" | tar -xzf - \
   && cd "tmux-$TMUXVER" && ./configure && make && make install
+
+# Install bat - cat with wings
+ARG BATVER=0.22.1
+RUN curl -fsSLO "https://github.com/sharkdp/bat/releases/download/v$BATVER/bat-musl_${BATVER}_amd64.deb" && dpkg -i "./bat-musl_${BATVER}_amd64.deb"
 
 # Install specific Node.js
 ARG NODEVER=18
